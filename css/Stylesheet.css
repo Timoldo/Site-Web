@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+div.fond1{
+    padding-top: 5%;
+    background: black;
+}
+body.background{
+    background: url('/Pictures/Hospital.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: grey;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 30px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid gray;
+    background-color: black;
+}
+
+div.link{
+    margin-left: 3px;
+    margin-right: 100px;
+}
+
+div.link a{
+    justify-content: center;
+    text-decoration: none;
+    color: grey;
+    padding-left: 12px;
+    margin-top: 3px;
+    padding-bottom: 5px;
+}
+
+.button1{
+    color: black;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius:10px;
+    background: grey;
+    transition-duration: 1s;
+    cursor: not-allowed;
+}
+
+.button1:hover{
+    color: white;
+    background: black;
+}
+
+h2{
+    font-size: 150%;
+}
+
+div.center{
+    text-align: center;
+    padding: 10px 10px;
+}
+span.left{
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+    border: 3px white solid;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align-all: center;
+}
+
+p {
+    color: white;
+    display: inline;
+    width: 30%;
+    height: 75%;
+}
+
+h3{
+    font-style: italic;
+    color: orange;
+    padding-left: 25%;
+}
+
+div.bloc_right{
+    text-align: right;
+    padding-right: 100px;
+}
+
+div.text_left{
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 20%;
+    width: 30%;
+    position: absolute;
+}
+
+div.fond1{
+    background: url("/Pictures/dawnback.png");
+}
+
+
+
+
+
